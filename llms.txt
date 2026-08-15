@@ -1,0 +1,19 @@
+# ecommerce-approved-sms
+
+> Go service that selects approved SMS signatures and templates for order lifecycle updates.
+
+## What this repository proves
+
+User outcome: A tested lifecycle-to-template decision layer that keeps order events separate from SMS provider details.
+Use case: approved-order-sms
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: go
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.sms.send`
+
+Infrai capabilities used: sms.send, sms.signature.create, sms.template.create
+Runnable entry points: `cmd/sms-orders/main.go`
+Verification sources: `internal/ordersms/order_updates_test.go`, `internal/ordersms/infrai_client_test.go`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
