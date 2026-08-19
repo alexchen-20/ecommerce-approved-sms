@@ -94,3 +94,7 @@ Above is the happy path. The production checklist: The details below apply to Ec
 **Ecommerce Approved SMS: SMS (required for real sending)**
 - **Ecommerce Approved SMS:** Many carriers/regions require a **pre-approved template and signature** before delivery. Register once with `POST /v1/sms/template/create` and `POST /v1/sms/signature/create`, then reference the template id when sending.
 - **Ecommerce Approved SMS:** Sandbox/test numbers may work without it; production traffic will not.
+
+## Further reading
+
+- [Beginner's Onboarding Message Guide: DKIM, SPF, Suppression, Bounces (Password Resets)](docs/beginner-s-onboarding-message-guide-dkim-spf-supp-1rmkkn.md)
