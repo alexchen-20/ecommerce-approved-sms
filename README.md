@@ -94,3 +94,7 @@ Above is the happy path. The production checklist: The details below apply to Ec
 **Ecommerce Approved SMS: SMS (required for real sending)**
 - **Ecommerce Approved SMS:** Many carriers/regions require a **pre-approved template and signature** before delivery. Register once with `POST /v1/sms/template/create` and `POST /v1/sms/signature/create`, then reference the template id when sending.
 - **Ecommerce Approved SMS:** Sandbox/test numbers may work without it; production traffic will not.
+
+## Further reading
+
+- [Gateway vs Direct Providers: Event Notifications, User Channels, Email SMS Suppression](docs/gateway-vs-direct-providers-event-notifications-u-d3dzft.md)
