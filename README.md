@@ -97,4 +97,5 @@ Above is the happy path. The production checklist: The details below apply to Ec
 
 ## Further reading
 
+- [Five Postmark Resend SendGrid SES and SMS Provider Boundaries for Healthtech Events Explained](docs/five-postmark-resend-sendgrid-ses-and-sms-provide-jof6dx.md)
 - [Gateway vs Direct Providers: Event Notifications, User Channels, Email SMS Suppression](docs/gateway-vs-direct-providers-event-notifications-u-d3dzft.md)
